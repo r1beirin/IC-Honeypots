@@ -33,9 +33,9 @@ def getFileLogs():
     return sorted(files)
 
 def getUploadedFiles():
-
     uploadedFiles = []
     d = Path(logFilesPath)
+    files = []
     
     for i in d.files("*"):
         tmp = []
@@ -44,10 +44,13 @@ def getUploadedFiles():
             tmp.append(i.size)
             uploadedFiles.append(tmp)
 
-    return sorted(uploadedFiles)
+    for i in uploadedFiles:
+        for j in range(len(i)):
+            if j == 0: files.append(i[j])
+
+    return sorted(files)
 
 def renderLog(current):
-    logFiles = getFileLogs()
     global loginSuccess
     global loginTried
 
@@ -79,9 +82,14 @@ def renderLog(current):
             if i["eventid"] == "cowrie.log.closed":
                 timeConnection.append(i["duration"])
 
-            
+def renderUpload():
+    #   Terminar feature de leitura uploads
+    teste = []
 
-
+    uploadFiles = getUploadedFiles()
+    for i in uploadFiles:
+        with open(logFilesPath + '/' + i, 'r') as myFile:
+            print(myFile.readline())
 
 def runRenderLog():
     foo = getFileLogs()
@@ -90,10 +98,7 @@ def runRenderLog():
         renderLog(foo[i])
 
 if __name__ == '__main__':
-    runRenderLog()
-
-    print(f'Número total de ataques: {loginTried}')
-    print(f'Número de ataques bem sucedidos: {loginSuccess}')
+    #runRenderLog()
     
     '''
     print(f'Número total de ataques: {loginTried}')
