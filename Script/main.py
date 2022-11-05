@@ -1,9 +1,10 @@
 from path import Path
 import json
 import pylab
-#use openpyxl
 import pandas
 
+
+# We need create 2 dirs inside /Script, they are "Log" and "LogUpload"
 logPath = "../Script/Log"
 logFilesPath = "../Script/LogUpload"
 csvFilePath = "../Script/"
