@@ -2,9 +2,10 @@ from path import Path
 import json
 import pylab
 import pandas
-
+import requests
 
 # We need create 2 dirs inside /Script, they are "Log" and "LogUpload"
+ipInfoToken = "eeaf18c59330ba"
 logPath = "../Script/Log"
 logFilesPath = "../Script/LogUpload"
 csvFilePath = "../Script/"
@@ -111,6 +112,21 @@ def dataProcess():
     # Import all used commands to CSV
     dfCommands = pandas.DataFrame(usedCommands, columns=["Comandos: "])
     dfCommands.to_csv("commands")
+
+def ipInfoRender():
+    tmp = []
+    country = []
+
+    for i in srcIps:
+        r = requests.get(f"http://ipinfo.io/{i}?token={ipInfoToken}")
+        tmp.append(r.json())
+
+    for i in tmp:
+        country.append(i["country"])
+        country.append(i["region"])
+        country.append(i["city"])
+
+    print(country)
 
 if __name__ == '__main__':
     runRenderLog()

