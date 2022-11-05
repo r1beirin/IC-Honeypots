@@ -1,8 +1,12 @@
 from path import Path
 import json
+import pylab
+#use openpyxl
+import pandas
 
 logPath = "../Script/Log"
 logFilesPath = "../Script/LogUpload"
+csvFilePath = "../Script/"
 loginTried = 0
 loginSuccess = 0
 usedCommands = set()
@@ -11,7 +15,6 @@ srcIps = set()
 timeConnection = []
 
 def getFileLogs():
-
     files = []
     d = Path(logPath)
 
@@ -28,12 +31,12 @@ def getFileLogs():
         tmp.append(splitString[2].replace("_", "-"))
 
         for j in range(0, len(tmp)):
-            if(j % 2 == 0): files.append(tmp[j]);
+            if(j % 2 == 0): files.append(tmp[j])
 
     return sorted(files)
 
-def getUploadedFiles():
-    uploadedFiles = []
+def getDownloadedFiles():
+    DownloadedFiles = []
     d = Path(logFilesPath)
     files = []
     
@@ -42,9 +45,9 @@ def getUploadedFiles():
         if(i.size >= 1024):
             tmp.append(str(i.name))
             tmp.append(i.size)
-            uploadedFiles.append(tmp)
+            DownloadedFiles.append(tmp)
 
-    for i in uploadedFiles:
+    for i in DownloadedFiles:
         for j in range(len(i)):
             if j == 0: files.append(i[j])
 
@@ -54,42 +57,33 @@ def renderLog(current):
     global loginSuccess
     global loginTried
 
-    with open(logPath + '/' + current) as myFile:
+    with open(logPath + "/" + current) as myFile:
         data = [
             json.loads(line)
-            for line in open(logPath + '/' + current, 'r')
+            for line in open(logPath + "/" + current, "r")
         ]
 
         for i in data:
-            # Contagem de logins com sucesso
-            if i["eventid"] == 'cowrie.login.success':
+            # Count success login
+            if i["eventid"] == "cowrie.login.success":
                 loginSuccess += 1
 
-            # Contagem de tentativas de login
-            if i["eventid"] == 'cowrie.login.success' or i["eventid"] == "cowrie.login.failed":
+            # Count tried login
+            if i["eventid"] == "cowrie.login.success" or i["eventid"] == "cowrie.login.failed":
                 loginTried += 1
 
-            # Armazenamento de comandos
-            if i["eventid"] == 'cowrie.command.input':
+            # Command storage
+            if i["eventid"] == "cowrie.command.input":
                 cowrieCommandInput.append(i)
                 usedCommands.add(i["input"])
 
-            # Coleta de IPs 
-            if i["eventid"] == 'cowrie.session.connect':
+            # IP storage
+            if i["eventid"] == "cowrie.session.connect":
                 srcIps.add(i["src_ip"])
 
-            # Armazenamento do tempo de sessão
+            # Session time storage
             if i["eventid"] == "cowrie.log.closed":
                 timeConnection.append(i["duration"])
-
-def renderUpload():
-    #   Terminar feature de leitura uploads
-    teste = []
-
-    uploadFiles = getUploadedFiles()
-    for i in uploadFiles:
-        with open(logFilesPath + '/' + i, 'r') as myFile:
-            print(myFile.readline())
 
 def runRenderLog():
     foo = getFileLogs()
@@ -97,19 +91,26 @@ def runRenderLog():
     for i in range(0, len(foo)):
         renderLog(foo[i])
 
+def dataProcess():
+
+    # Pie chart tried x success
+    pylab.pie([loginTried, loginSuccess])
+    pylab.title("Gráfico tentivas x sucessos")
+    pylab.xlabel(f"Tentativas: {loginTried}\nSucesso: {loginSuccess}")
+    pylab.savefig("tentativasucesso.png")
+
+    # Import all IPs to CSV
+    dfIps = pandas.DataFrame(srcIps, columns=["IPs: "])
+    dfIps.to_csv("ips.csv")
+
+    # Import all duration section to CSV
+    dfTimeSession = pandas.DataFrame(timeConnection, columns=["Duração de sessão: "])
+    dfTimeSession.to_csv("timeSession.csv")
+
+    # Import all used commands to CSV
+    dfCommands = pandas.DataFrame(usedCommands, columns=["Comandos: "])
+    dfCommands.to_csv("commands")
+
 if __name__ == '__main__':
-    #runRenderLog()
-    
-    '''
-    print(f'Número total de ataques: {loginTried}')
-    print(f'Número de ataques bem sucedidos: {loginSuccess}')
-    
-    for i in usedCommands:
-        print(f"Comando: {i}\n")
-        
-    for i in srcIps:
-        print(i)
-    
-    for i in timeConnection:
-        print(i) 
-        '''
+    runRenderLog()
+    dataProcess()
