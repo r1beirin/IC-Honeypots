@@ -3,9 +3,9 @@ import json
 import pylab
 import pandas
 import requests
+import time
 
 # We need create 2 dirs inside /Script, they are "Log" and "LogUpload"
-ipInfoToken = "eeaf18c59330ba"
 logPath = "../Script/Log"
 logFilesPath = "../Script/LogUpload"
 csvFilePath = "../Script/"
@@ -15,6 +15,7 @@ usedCommands = set()
 cowrieCommandInput = []
 srcIps = set()
 timeConnection = []
+country = set()
 
 def getFileLogs():
     files = []
@@ -71,7 +72,7 @@ def renderLog(current):
                 loginSuccess += 1
 
             # Count tried login
-            if i["eventid"] == "cowrie.login.success" or i["eventid"] == "cowrie.login.failed":
+            if i["eventid"] == "cowrie.login.failed":
                 loginTried += 1
 
             # Command storage
@@ -101,33 +102,39 @@ def dataProcess():
     pylab.xlabel(f"Tentativas: {loginTried}\nSucesso: {loginSuccess}")
     pylab.savefig("tentativasucesso.png")
 
-    # Import all IPs to CSV
+    # Export all IPs to CSV
     dfIps = pandas.DataFrame(srcIps, columns=["IPs: "])
     dfIps.to_csv("ips.csv")
 
-    # Import all duration section to CSV
+    # Export all duration section to CSV
     dfTimeSession = pandas.DataFrame(timeConnection, columns=["Duração de sessão: "])
     dfTimeSession.to_csv("timeSession.csv")
 
-    # Import all used commands to CSV
+    # Export all used commands to CSV
     dfCommands = pandas.DataFrame(usedCommands, columns=["Comandos: "])
     dfCommands.to_csv("commands")
 
+    # Export countrys to CSV
+    dfCountry = pandas.DataFrame(country, columns=["Países: "])
+    dfCountry.to_csv("country.csv")
+
 def ipInfoRender():
     tmp = []
-    country = []
+    count = 0
 
     for i in srcIps:
-        r = requests.get(f"http://ipinfo.io/{i}?token={ipInfoToken}")
+        count += 1
+        r = requests.get(f"http://ip-api.com/json/{i}")
         tmp.append(r.json())
+        time.sleep(1.1)
+        print(count)
 
     for i in tmp:
-        country.append(i["country"])
-        country.append(i["region"])
-        country.append(i["city"])
+        country.add(i["country"])
 
     print(country)
 
 if __name__ == '__main__':
     runRenderLog()
+    ipInfoRender()
     dataProcess()
