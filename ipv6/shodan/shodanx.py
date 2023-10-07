@@ -2,13 +2,7 @@ from shodan import Shodan
 from datetime import date
 import json
 
-#instancesIP = getIp()
-# asia-east2-instance-02 		2600:1900:41a0:138:0:0:0:0
-# europe-west3-instance-02 	2600:1900:40d0:7bc2:0:0:0:0
-# me-west1-instance-02 		2600:1901:8160:d0:0:0:0:0
-# southamerica-east1-instance-02	2600:1900:40f0:f9f2:0:0:0:0
-# us-west2-instance-02 		2600:1900:4120:ecf8:0:0:0:0
-instancesIP = ['2600:1900:41a0:138:0:0:0:0', '2600:1900:40d0:7bc2:0:0:0:0', '2600:1901:8160:d0:0:0:0:0', '2600:1900:40f0:f9f2:0:0:0:0', '2600:1900:4120:ecf8:0:0:0:0']
+instancesIP = ['2600:1900:41a0:9b2f:0:0:0:0', '2600:1900:40d0:e44c:0:0:0:0', '2600:1901:8160:716:0:0:0:0', '2600:1900:40f0:fce8:0:0:0:0', '2600:1900:4120:d82b:0:0:0:0']
 today = date.today()
 API_KEY = ''
 output_filename = f'shodan-{today}.json'
